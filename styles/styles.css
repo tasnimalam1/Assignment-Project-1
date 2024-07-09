@@ -37,12 +37,12 @@ nav li {
 .hero-section {
   max-width: 1440px;
   min-height: 652px;
-  border: 2px solid red;
   margin: 0 auto;
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 74px;
 }
 .hero-section-container {
   display: flex;
@@ -83,4 +83,143 @@ nav li {
 .btn a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+/* development section style */
+.development {
+  max-width: 946px;
+  min-height: 1235px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+}
+.why-development {
+  margin-bottom: 48px;
+}
+.why-development h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.why-development p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.development-section {
+  width: 946px;
+  height: 1072px;
+}
+.section-1st {
+  width: 850px;
+  height: 240px;
+  display: flex;
+  margin: 0 auto;
+  padding: 48px;
+  margin-bottom: 32px;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.section1st-left {
+  width: 477px;
+  height: 220px;
+  margin: 8px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section1st-left h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.section1st-left p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.section1st-left button {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+  height: 48px;
+}
+.section1st-left button a {
+  text-decoration: none;
+}
+.section1st-right {
+  width: 223.2px;
+  height: 208.85px;
+  margin: 8px 0px 8px 0px;
+}
+.section1st-right img {
+  margin-left: 98.83px;
+}
+.section-2nd {
+  width: 850px;
+  height: 240px;
+  display: flex;
+  margin: 0 auto;
+  padding: 48px;
+  margin-bottom: 32px;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.section2nd-left {
+  width: 477px;
+  height: 220px;
+  margin: 0px 8px 0px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section2nd-left img {
+  margin-right: 48.8px;
+}
+.section2nd-right h2 {
+  width: 477px;
+  height: 72px;
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.section2nd-right p {
+  width: 468px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.section2nd-right button {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+  height: 48px;
+}
+.section2nd-right button a {
+  text-decoration: none;
 }
