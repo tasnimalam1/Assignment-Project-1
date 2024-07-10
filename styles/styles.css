@@ -327,3 +327,61 @@ nav li {
 .js-color {
   background: rgba(255, 76, 30, 0.05);
 }
+/* support style section */
+.support-container {
+  width: 1140px;
+  height: 314px;
+  background-image: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-blend-mode: overlay;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 79px;
+}
+.support-content {
+  width: 730px;
+  height: 104px;
+  text-align: center;
+}
+.support-content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+}
+.support-content p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+section input[type="text"] {
+  width: 548px;
+  height: 57px;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.sub-btn {
+  width: 120px;
+  height: 58px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px 17px 20px;
+}
