@@ -19,6 +19,9 @@ nav {
   font-size: 28px;
   font-weight: 800;
 }
+#color {
+  color: rgb(61, 75, 182);
+}
 nav li {
   list-style: none;
 }
