@@ -35,7 +35,7 @@ nav li {
 }
 /* hero section start here*/
 .hero-section {
-  max-width: 1440px;
+  max-width: 100%;
   min-height: 652px;
   margin: 0 auto;
   background-image: url(../assets/Hero-bg.png);
@@ -83,6 +83,11 @@ nav li {
 .btn a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+.btn:hover {
+  background-color: rgb(137, 151, 250);
+  cursor: pointer;
+  transition: 0.8s ease-in;
 }
 /* development section style */
 .development {
@@ -161,6 +166,7 @@ nav li {
 }
 .section1st-left button a {
   text-decoration: none;
+  color: black;
 }
 .section1st-right {
   width: 223.2px;
@@ -223,6 +229,7 @@ nav li {
 }
 .section2nd-right button a {
   text-decoration: none;
+  color: black;
 }
 /* inspiration section styles*/
 .inspiration-section {
@@ -373,6 +380,7 @@ section input[type="text"] {
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 8px;
   background: rgb(255, 255, 255);
+  padding: 15px;
 }
 .sub-btn {
   width: 120px;
