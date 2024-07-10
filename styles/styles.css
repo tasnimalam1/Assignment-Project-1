@@ -383,15 +383,15 @@ section input[type="text"] {
   padding: 15px;
 }
 .sub-btn {
-  width: 120px;
-  height: 58px;
+  /* width: 120px;
+  height: 58px; */
   border-radius: 8px;
   background: rgb(255, 255, 255);
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
-  /* padding: 17px 20px 17px 20px; */
+  padding: 15px 20px 17px 20px;
 }
 /* footer section style */
 .footer-section {
