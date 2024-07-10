@@ -92,6 +92,7 @@ nav li {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
   padding: 80px 97px 80px 97px;
+  margin-bottom: 88px;
 }
 .why-development {
   margin-bottom: 48px;
@@ -228,6 +229,7 @@ nav li {
   width: 1140px;
   height: 777px;
   margin: 0 auto;
+  margin-bottom: 149px;
 }
 .inspiration-content {
   width: 852px;
@@ -255,4 +257,73 @@ nav li {
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
   margin-top: 48px;
+}
+/* my target section style */
+.my-target-section {
+  width: 1140px;
+  height: 462px;
+  margin: 0 auto;
+  margin-bottom: 88px;
+}
+.target-content {
+  width: 852px;
+  height: 115px;
+  text-align: center;
+  margin: 0 auto;
+}
+.target-content h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+}
+.target-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+.skills-container {
+  width: 394px;
+  height: 299px;
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+.skill {
+  padding: 40px;
+  border-radius: 16px;
+}
+.skill h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.skill p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  width: 284px;
+  height: 52px;
+  margin-bottom: 24px;
+}
+.skill a {
+  width: 284px;
+  height: 19px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+}
+.css-color {
+  background: rgba(0, 76, 232, 0.05);
+}
+.html-color {
+  background: rgba(255, 76, 30, 0.05);
+}
+.js-color {
+  background: rgba(255, 76, 30, 0.05);
 }
